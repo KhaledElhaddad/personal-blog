@@ -1,0 +1,115 @@
+@import "layout.css";
+@import "header.css";
+@import "footer.css";
+
+article {
+    background-color: #f1f1f1;
+    color: #333;
+    margin: 20px;
+}
+
+
+
+.blog-post {
+    grid-area: post;
+    padding: 20px;
+}
+
+.post-head {
+    padding-bottom: 20px;
+}
+
+.post-head p {
+    margin-top: 0px;
+}
+
+.frist-paragraph {
+    font-weight: bold;
+}
+
+.last-paragtaph {
+    text-decoration: underline;
+}
+
+
+.blog-post ul li {
+    margin: 5px 0 0 35px;
+}
+
+.about {
+    grid-area: about;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: #f1f1f1;
+    padding: 20px;
+    margin: 20px 0 0;
+}
+
+.about img {
+    margin-right: 15px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.pio {
+    padding-top: 40px;
+    max-width: 450px;
+}
+
+.about h4 {
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: .8em;
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+.about i {
+    font-size: 1.5em;
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 5px;
+    margin: 10px;
+    min-width: 39px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 0;
+    clear: both;
+}
+
+@media (min-width: 900px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto 20px 300px 15px;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "header header header header"
+        "post post about ."
+        "footer footer footer footer";
+        max-width: 1125px;
+        margin: 0 auto;
+    }
+
+    .about {
+        flex-direction: column;
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    .about img {
+        width: 100px;
+        height: 100px;
+        margin: 20px auto;
+    }
+
+    .pio {
+        padding-top: 0px;
+    }
+}
+

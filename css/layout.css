@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
+h1, 
+h2,
+h3, 
+h4, 
+h5, 
+h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.05em;
+    margin: 0.2em 0;
+}
+
+h1 {
+    font-size: 2.3em;
+}
+  
+h2 {
+    font-size: 1.5em;
+}
+  
+h3 {
+    font-size: 1.3em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+p {
+    font-size: .9em;
+    margin: .5em 0 0;
+}
+
+p + p {
+    margin: 2px;
+}
+
+a {
+    color: #333;
+    outline: none;
+    text-decoration: none;
+}
+
+u {
+    text-decoration: none;
+}
+
+figure {
+    background-color: #fff;
+    padding: 25px 20px;
+    max-width: 550px;
+    margin: 0 auto 20px;
+}
+
+figure img {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+figcaption {
+    font-style: italic;
+    font-weight: 300;
+    font-size: .8em;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: .8em;
+    font-weight: 300;
+    letter-spacing: .05em;
+    padding: 20px;
+}
+
+input {
+    height: 30px;
+    outline: none;
+}
+
+input[type=email]{
+    height: 30px;
+    width: 75%;
+    max-width: 500px;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+}
